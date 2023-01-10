@@ -7,11 +7,11 @@
     <form method="post" action="Edit">
         <div class="my-3">
             <label>Номер группы:</label>
-            <input type="text" name="GroupName" value="@Model.GroupNumber" class="form-control" />
+            <input type="text" name="GroupName" value="@Model.GroupNumber" class="form-control" required/>
         </div>
         <div class="my-3">
             <label>Институт:</label>
-            <select class="form-control" name="Institute" asp-items="Html.GetEnumSelectList<InstituteList>()"></select>
+            <select class="form-control" name="Institute" asp-items="Html.GetEnumSelectList<InstituteList>()" required></select>
         </div>
         <input type="text" name="id" value="@Model.Id" hidden />
         <button type="submit" class="btn btn-primary">Подтвердить</button>

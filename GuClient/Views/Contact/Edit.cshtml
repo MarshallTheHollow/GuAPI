@@ -1,0 +1,31 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Редактировать контакт";
+}
+
+
+    <form method="post" action="Edit">
+        <div class="my-3">
+            <label>Имя:</label>
+            <input type="text" name="Name" value="@Model.Name" class="form-control" required />
+        </div>
+        <div class="my-3">
+            <label>Фамилия:</label>
+            <input type="text" name="SurName" value="@Model.SurName" class="form-control" required />
+        </div>
+        <div class="my-3">
+            <label>Группа:</label>
+            <select class="form-control" name="GroupId" required>
+            @foreach(var i in ViewBag.Groups)
+            {
+                <option value="@i.Id" selected="@(Model.GroupId == i.Id)">@i.GroupNumber</option>
+            }
+            </select>
+        </div>
+        <div class="my-3">
+            <label>Номер телефона:</label>
+            <input type="text" name="PhoneNumber" value="@Model.PhoneNumber" class="form-control" required />
+        </div>
+        <input type="text" name="id" value="@Model.Id" hidden />
+        <button type="submit" class="btn btn-primary">Подтвердить</button>
+    </form>   

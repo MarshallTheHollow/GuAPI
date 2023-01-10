@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Добавить контакт";
+}
+
+
+    <form method="post" action="Add">
+        <div class="my-3">
+            <label>Имя:</label>
+        <input type="text" name="Name" class="form-control" required />
+        </div>
+        <div class="my-3">
+            <label>Фамилия:</label>
+            <input type="text" name="SurName" class="form-control" required/>
+        </div>
+        <div class="my-3">
+            <label>Группа:</label>
+            <select class="form-control" name="GroupId" required>
+            @foreach(var i in ViewBag.Groups)
+            {
+                <option value="@i.Id">@i.GroupNumber</option>
+            }
+            </select>
+        </div>
+        <div class="my-3">
+            <label>Номер телефона:</label>
+            <input type="text" name="PhoneNumber" class="form-control" required/>
+        </div>
+        <button type="submit" class="btn btn-primary">Подтвердить</button>
+    </form>   
+

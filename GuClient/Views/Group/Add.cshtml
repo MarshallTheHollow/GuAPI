@@ -6,11 +6,11 @@
     <form method="post" action="Add">
         <div class="my-3">
             <label>Номер группы:</label>
-            <input type="text" name="GroupName" class="form-control" />
+            <input type="text" name="GroupName" class="form-control" required />
         </div>
         <div class="my-3">
             <label>Институт:</label>
-            <select class="form-control" name="Institute" asp-items="Html.GetEnumSelectList<InstituteList>()"></select>
+        <select class="form-control" name="Institute" asp-items="Html.GetEnumSelectList<InstituteList>()"required></select>
         </div>
         <button type="submit" class="btn btn-primary">Подтвердить</button>
     </form>   
