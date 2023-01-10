@@ -1,5 +1,6 @@
-﻿using GuAPI.DTO;
-using GuAPI.Models;
+﻿using GuAPI.Models;
+using GuData.DTO;
+using GuData.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,13 +20,13 @@ namespace GuAPI.Controllers
         [HttpGet]
         public IEnumerable<Contact> Get()
         {
-            return _context.Contacts;
+            return _context.Contacts.Include(x => x.Group);
         }
 
         [HttpGet("{id}")]
         public Contact Get(int id)
         {
-            var contact = _context.Contacts.FirstOrDefault(x => x.Id == id);
+            var contact = _context.Contacts.Include(y => y.Group).FirstOrDefault(x => x.Id == id);
             if(contact != null)
             {
                 return contact;

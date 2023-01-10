@@ -1,0 +1,12 @@
+C:\Users\kuajt\source\repos\GuAPI\GuData\bin\Debug\net6.0\GuData.deps.json
+C:\Users\kuajt\source\repos\GuAPI\GuData\bin\Debug\net6.0\GuData.dll
+C:\Users\kuajt\source\repos\GuAPI\GuData\bin\Debug\net6.0\GuData.pdb
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\GuData.csproj.AssemblyReference.cache
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\GuData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\GuData.AssemblyInfoInputs.cache
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\GuData.AssemblyInfo.cs
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\GuData.csproj.CoreCompileInputs.cache
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\GuData.dll
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\refint\GuData.dll
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\GuData.pdb
+C:\Users\kuajt\source\repos\GuAPI\GuData\obj\Debug\net6.0\ref\GuData.dll

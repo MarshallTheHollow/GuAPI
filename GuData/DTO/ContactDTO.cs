@@ -1,11 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace GuAPI.Models
+namespace GuData.DTO
 {
-    public class Contact
+    public class ContactDTO
     {
-        [Key]
-        public int Id { get; set; }
         public string Name { get; set; }
         public string SurName { get; set; }
         public string PhoneNumber { get; set; }

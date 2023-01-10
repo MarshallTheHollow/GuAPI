@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tvKO0W9kDGNjtE5t8etZcBo+ePFasjYKcNDA8D8H8ecnY1+bQPCDz2gsO/NkrH/DiVIsUy4Cz5aUMPKa6AaHzw==",
+  "dgSpecHash": "8KOHtf1lbKGOhfnHHx13Wx+Q5BkyM5zCJ2mJ6qLV50lXBL/sFO6gbQYY80MdUhAc/rxDOil2XSVKwAesIgAJWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kuajt\\source\\repos\\GuAPI\\GuClient\\GuClient.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kuajt\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

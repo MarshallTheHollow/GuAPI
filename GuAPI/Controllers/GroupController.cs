@@ -1,5 +1,6 @@
-﻿using GuAPI.DTO;
-using GuAPI.Models;
+﻿using GuAPI.Models;
+using GuData.DTO;
+using GuData.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

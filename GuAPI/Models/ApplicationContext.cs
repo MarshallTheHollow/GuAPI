@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using GuData.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace GuAPI.Models
 {

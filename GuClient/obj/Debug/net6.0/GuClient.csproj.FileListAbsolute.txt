@@ -29,3 +29,7 @@ C:\Users\kuajt\source\repos\GuAPI\GuClient\obj\Debug\net6.0\refint\GuClient.dll
 C:\Users\kuajt\source\repos\GuAPI\GuClient\obj\Debug\net6.0\GuClient.pdb
 C:\Users\kuajt\source\repos\GuAPI\GuClient\obj\Debug\net6.0\GuClient.genruntimeconfig.cache
 C:\Users\kuajt\source\repos\GuAPI\GuClient\obj\Debug\net6.0\ref\GuClient.dll
+C:\Users\kuajt\source\repos\GuAPI\GuClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kuajt\source\repos\GuAPI\GuClient\bin\Debug\net6.0\GuData.dll
+C:\Users\kuajt\source\repos\GuAPI\GuClient\bin\Debug\net6.0\GuData.pdb
+C:\Users\kuajt\source\repos\GuAPI\GuClient\obj\Debug\net6.0\GuClient.csproj.CopyComplete

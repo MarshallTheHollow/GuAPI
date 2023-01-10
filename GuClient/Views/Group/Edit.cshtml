@@ -1,0 +1,18 @@
+﻿@model Group
+@{
+    ViewData["Title"] = "Редактировать группу";
+}
+
+
+    <form method="post" action="Edit">
+        <div class="my-3">
+            <label>Номер группы:</label>
+            <input type="text" name="GroupName" value="@Model.GroupNumber" class="form-control" />
+        </div>
+        <div class="my-3">
+            <label>Институт:</label>
+            <select class="form-control" name="Institute" asp-items="Html.GetEnumSelectList<InstituteList>()"></select>
+        </div>
+        <input type="text" name="id" value="@Model.Id" hidden />
+        <button type="submit" class="btn btn-primary">Подтвердить</button>
+    </form>   

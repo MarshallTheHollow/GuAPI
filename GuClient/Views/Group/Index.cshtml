@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Group>
+@{
+    ViewData["Title"] = "Все Группы";
+}
+<h1 class="text-center">Список всех существующих групп:</h1>
+<a href="/Group/Add" class="btn btn-primary" style="float:right">Добавить новую группу</a>
+<div class="text-center">
+    <table class="table">
+        <thead>
+            <tr>
+            <th>Номер группы</th>
+            <th>Институт</th>
+            <th>Управление</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var g in Model)
+            {
+                <tr>
+                    <td>@g.GroupNumber</td>
+                    <td>@g.Institute</td>
+                    <td>
+                        <a href="/Group/Edit/@g.Id" class="btn btn-secondary" >Редактировать</a>
+                        <a href="/Group/Delete/@g.Id" class="btn btn-danger" >Удалить</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+</table>
+</div>
+

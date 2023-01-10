@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Добавить группу";
+}
+
+
+    <form method="post" action="Add">
+        <div class="my-3">
+            <label>Номер группы:</label>
+            <input type="text" name="GroupName" class="form-control" />
+        </div>
+        <div class="my-3">
+            <label>Институт:</label>
+            <select class="form-control" name="Institute" asp-items="Html.GetEnumSelectList<InstituteList>()"></select>
+        </div>
+        <button type="submit" class="btn btn-primary">Подтвердить</button>
+    </form>   
+

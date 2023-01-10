@@ -82,3 +82,5 @@ C:\Users\kuajt\source\repos\GuAPI\GuAPI\bin\Debug\net6.0\runtimes\win-arm64\nati
 C:\Users\kuajt\source\repos\GuAPI\GuAPI\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\kuajt\source\repos\GuAPI\GuAPI\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\kuajt\source\repos\GuAPI\GuAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\kuajt\source\repos\GuAPI\GuAPI\bin\Debug\net6.0\GuData.dll
+C:\Users\kuajt\source\repos\GuAPI\GuAPI\bin\Debug\net6.0\GuData.pdb

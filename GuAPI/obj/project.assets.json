@@ -669,6 +669,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "GuData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GuData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuData.dll": {}
+        }
       }
     }
   },
@@ -1548,10 +1558,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "GuData/1.0.0": {
+      "type": "project",
+      "path": "../GuData/GuData.csproj",
+      "msbuildProject": "../GuData/GuData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "GuData >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.1",
@@ -1585,7 +1601,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kuajt\\source\\repos\\GuAPI\\GuData\\GuData.csproj": {
+              "projectPath": "C:\\Users\\kuajt\\source\\repos\\GuAPI\\GuData\\GuData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
